@@ -1,0 +1,27 @@
+$green: #99f8b959;
+$yellow: #fcfab4;
+$white: #ffffff;
+
+.in2 {
+  display: flex;
+  input {
+    width: 800px;
+    margin: 1px;
+    outline: none;
+  }
+  .in1 {
+    width: 150px;
+
+    border: 1.5px solid rgb(209, 209, 209);
+    padding: 6px;
+
+    text-align: right;
+    background-color: rgb(157, 190, 252);
+    &:hover {
+      background-color: $white;
+    }
+    &:focus {
+      background-color: $white;
+    }
+  }
+}
