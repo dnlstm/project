@@ -14,13 +14,17 @@
 
   .box2 {
     width: 295px;
-    padding: 20px 10px;
-    display: inline-block;
+    height: 60px;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
     border: none;
     border-bottom: 1px solid rgb(245, 252, 255, 0.1);
+    // padding: 10 30px;
     outline: none;
     background-color: transparent;
     color: #d6d6d6;
+    font-size: large;
     cursor: pointer;
 
     &:hover {
@@ -28,4 +32,25 @@
       border-radius: 7px;
     }
   }
+  // .box3 {
+  //   width: 295px;
+  //   height: 60px;
+  //   padding: 10px 80px;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   text-decoration: none;
+  //   border: none;
+  //   border-bottom: 1px solid rgb(245, 252, 255, 0.1);
+  //   // padding: 10 30px;
+  //   outline: none;
+  //   background-color: transparent;
+  //   color: #d6d6d6;
+  //   font-size: large;
+  //   cursor: pointer;
+
+  //   &:hover {
+  //     background-color: rgb(218, 247, 247);
+  //     border-radius: 7px;
+  //   }
+  // }
 }

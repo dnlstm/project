@@ -1,0 +1,25 @@
+.mai {
+  width: 1170px;
+  height: 681px;
+
+  // display: flex;
+  // margin-top: 10px;
+  // margin-right: 10px;
+  // padding: 7px 300px;
+  margin-left: 310px;
+
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 7px;
+
+  .res {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    // padding-bottom: 0px;
+    // padding-left: px;
+  }
+}

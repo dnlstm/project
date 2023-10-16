@@ -1,0 +1,27 @@
+.all {
+  margin-left: 130px;
+
+  .main7 {
+    width: 851px;
+    height: 71px;
+    // margin-bottom: -24px;
+    margin-top: 60px;
+    border-radius: 7px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 8px;
+    color: white;
+    background-color: rgb(19, 68, 160);
+  }
+  .main8 {
+    width: 850px;
+    height: 500px;
+    display: flex;
+    padding-left: 140px;
+    justify-content: center;
+    align-items: center;
+    // margin-top: 24px;
+    background-color: rgb(178, 239, 250);
+  }
+}

@@ -1,71 +1,66 @@
-.main {
-  height: 100%;
+.mm {
+  width: 1480px;
+  height: 680px;
 
-  // display: flex;
-  // margin-top: 10px;
-  // margin-right: 10px;
-  // padding: 7px 300px;
-  margin-left: 310px;
-
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
-  border-radius: 7px;
-
-  .main2 {
-    width: 100%;
+  .main {
     height: 100%;
-    // margin: 10px;
-    overflow: auto;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
 
-    .main3 {
-      padding: 50px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      Input {
-        width: 350px;
-      }
-    }
-    .main4 {
-      padding: 50px;
-      display: flex;
-      position: relative;
-      flex-direction: column;
-      align-items: center;
-      Input {
-        width: 350px;
-      }
+    // display: flex;
+    // margin-top: 10px;
+    // margin-right: 10px;
+    // padding: 7px 300px;
+    margin-left: 310px;
 
-      .mainside {
-        width: 51px;
-        height: 317px;
-        border: 1px solid;
-        color: white;
-        // writing-mode: horizontal-tb;
-        text-align: center;
-        position: absolute;
-        left: 316px;
-        bottom: 573px;
-        font-size: 20px;
-        padding: 10px;
-        padding-top: 90px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 
-        background-color: rgb(19, 68, 160);
-      }
-      .main8 {
-        width: 602px;
-        height: 500px;
-        display: flex;
-        padding-left: 140px;
-        justify-content: center;
-        align-items: center;
-        margin-top: 24px;
-        background-color: rgb(178, 239, 250);
-      }
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+
+    .main2 {
+      width: 100%;
+      height: 100%;
+      // margin: 10px;
+      overflow: auto;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+
+      // .main3 {
+      //   padding: 50px;
+      //   display: flex;
+      //   flex-direction: column;
+      //   align-items: center;
+      //   Input {
+      //     width: 350px;
+      //   }
+      // }
+      // .main4 {
+      //   padding: 50px;
+      //   display: flex;
+      //   position: relative;
+      //   flex-direction: column;
+      //   align-items: center;
+      //   Input {
+      //     width: 350px;
+      //   }
+
+      //   .mainside {
+      //     width: 53px;
+      //     height: 317px;
+      //     border: 1px solid;
+      //     color: white;
+      //     // writing-mode: horizontal-tb;
+      //     text-align: center;
+      //     position: absolute;
+      //     left: 264px;
+      //     bottom: 659px;
+      //     font-size: 22px;
+      //     padding: 5px;
+      //     padding-top: 85px;
+
+      //     background-color: rgb(19, 68, 160);
+      //   }
+      // }
     }
   }
 }

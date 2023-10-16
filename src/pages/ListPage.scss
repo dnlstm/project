@@ -3,17 +3,18 @@
   width: 1600px;
   height: 800px;
   position: relative;
-  top: 80px;
+  top: 75px;
   left: 155px;
-  border-radius: 6px;
+  border-radius: 25px;
   // border: 2px solid #b3b3b3;
   padding-top: 55px;
-  padding-left: 57px;
-
-  background: rgb(223, 223, 223);
+  padding-left: 59px;
+  // background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
   justify-content: space-between;
-  .list2 {
-    width: 1480px;
-    height: 680px;
-  }
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  // .list2 {
+  //   width: 1480px;
+  //   height: 680px;
+  // }
 }

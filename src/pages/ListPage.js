@@ -6,10 +6,8 @@ import "./ListPage.scss";
 const ListPage = () => {
   return (
     <div className="list1">
-      <div className="list2">
-        <SideBarContainer />
-        <Main />
-      </div>
+      <SideBarContainer />
+      <Main />
     </div>
   );
 };

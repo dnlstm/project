@@ -2,15 +2,19 @@ $green: #99f8b959;
 $yellow: #fcfab4;
 $white: #ffffff;
 
-.in2 {
+.sel {
   display: flex;
-  input {
+  select {
     width: 350px;
+    height: 34px;
     margin: 1px;
+    margin-left: 1px;
     outline: none;
+    text-align: center;
   }
-  .in1 {
+  label {
     width: 150px;
+    height: px;
 
     border: 1.5px solid rgb(209, 209, 209);
     padding: 6px;
