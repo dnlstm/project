@@ -9,8 +9,8 @@ function SideBar() {
   return (
     <div className="templete">
       <Side1 />
-      <Side2 />
       <Side3 />
+      <Side2 />
     </div>
   );
 }

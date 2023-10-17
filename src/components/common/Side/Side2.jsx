@@ -5,27 +5,29 @@ import { GrMail } from "react-icons/gr";
 import { FaGear } from "react-icons/fa6";
 import "./Side2.scss";
 import { Link } from "react-router-dom";
+import SideButton from "../button/SideButton/SideButton";
 
 const Side2 = () => {
   return (
     <div className="side">
       <Link to="/list">
-        <button className="box2">
-          {" "}
-          <FaFileCirclePlus size="20" /> 새 평가 작성
-        </button>
+        <div className="sideButton">
+          <FaFileCirclePlus size="20" color="black" />
+          <SideButton name="새 평가 작성" />
+        </div>
       </Link>
-      <button className="box2">
-        {" "}
-        <FaListAlt size="20" /> 내 평가 목록
-      </button>
-      <button className="box2">
-        <GrMail size="21" /> 문의하기
-      </button>
-      <button className="box2">
-        {" "}
-        <FaGear size="21" /> 설정{" "}
-      </button>
+      <div className="sideButton">
+        <FaListAlt size="20" />
+        <SideButton name="내 평가 목록" />
+      </div>
+      <div className="sideButton">
+        <GrMail size="21" />
+        <SideButton name="문의하기" />
+      </div>
+      <div className="sideButton">
+        <FaGear size="21" />
+        <SideButton name="설정" />
+      </div>
     </div>
   );
 };

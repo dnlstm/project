@@ -1,12 +1,10 @@
 .templete {
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: space-around;
-  // float: left;
-  position: absolute;
-  // background: linear-gradient(#30142b, #2772a1);
+  width: 350px;
+  height: 900px;
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 
-  // a {
-  //   text-decoration: none;
-  // }
+  position: fixed;
+  left: 100px;
 }

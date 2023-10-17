@@ -13,6 +13,7 @@ import "./index.scss";
 import App from "./App";
 import rootReducer from "./store/modules";
 import reportWebVitals from "./reportWebVitals";
+import ScrollToTop from "./lib/ScrollToTop";
 
 // enableES5();
 
@@ -27,6 +28,7 @@ root.render(
     <BrowserRouter>
       <HelmetProvider>
         <React.StrictMode>
+          <ScrollToTop />
           <App />
         </React.StrictMode>
       </HelmetProvider>

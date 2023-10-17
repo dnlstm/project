@@ -9,6 +9,7 @@ import IdPwContainer from "./containers/IdPwContainer/IdPwContainer";
 import ResultPage from "./pages/ResultPage";
 import { CSSTransition } from "react-transition-group";
 import { TransitionGroup } from "react-transition-group";
+import EvaluationPage from "./pages/EvaluationPage";
 
 const App = () => {
   const location = useLocation();
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/list" element={<ListPage />} />
           <Route path="/result" element={<ResultPage />} />
+          <Route path="/evaluation" element={<EvaluationPage />} />
         </Routes>
       </CSSTransition>
     </TransitionGroup>

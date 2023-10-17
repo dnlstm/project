@@ -1,6 +1,4 @@
 import React from "react";
-
-import "./ListPage.scss";
 import Result from "../components/Result/Result";
 import SideBarContainer from "../containers/SideBarContainer/SideBarContainer";
 

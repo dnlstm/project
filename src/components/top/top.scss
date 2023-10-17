@@ -1,0 +1,14 @@
+.top {
+  width: 1355px;
+  text-align: right;
+  margin-top: 10px;
+  // display: flex;
+  // justify-content: flex-end;
+  position: sticky;
+  top: 10px;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}

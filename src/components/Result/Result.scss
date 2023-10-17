@@ -1,25 +1,19 @@
 .mai {
-  width: 1170px;
-  height: 681px;
+  width: 1400px;
+  height: 900px;
 
-  // display: flex;
-  // margin-top: 10px;
-  // margin-right: 10px;
-  // padding: 7px 300px;
-  margin-left: 310px;
+  margin-left: 450px;
+  margin-top: 30px;
 
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
-  border-radius: 7px;
-
+  background-color: rgb(255, 255, 255, 0.7);
+  overflow: auto;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   .res {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    // padding-bottom: 0px;
-    // padding-left: px;
+    margin-top: 30px;
   }
 }
