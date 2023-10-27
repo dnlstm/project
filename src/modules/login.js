@@ -45,3 +45,24 @@
 //   },
 //   getInitialState()
 // );
+
+// import { createSlice } from "@reduxjs/toolkit";
+
+// const initialState = {
+//   clicked: false,
+//   id: "",
+//   password: "",
+// };
+
+// const loginSlice = createSlice({
+//   name: "login",
+//   initialState,
+//   reducers: {
+//     getId(state, action) {
+//       state.id = action.payload.data;
+//     },
+//   },
+// });
+
+// export const { getId } = loginSlice.actions;
+// export default loginSlice.reducer;

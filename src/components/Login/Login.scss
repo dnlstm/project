@@ -1,20 +1,21 @@
 .center {
-  width: 100%;
-  height: 100%;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   // background: linear-gradient(#30142b, #2772a1);
 
   .line {
     width: 500px;
-    height: 370px;
-    position: relative;
+    height: 500px;
+    // position: relative;
     z-index: 1;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 440px;
     left: 50%;
     padding: 40px;
     transform: translate(-50%, -50%);
+    transition: 3ms;
     background: rgba(0, 0, 0, 0.5);
 
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);

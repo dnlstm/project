@@ -1,19 +1,47 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Register.scss";
+import LoginInput from "../input/LoginInput";
 
-const Register = () => {
+const Register = ({
+  name,
+  email,
+  password,
+  nameChange,
+  emailChange,
+  passwordChange,
+  buttonClick,
+}) => {
   return (
     <div className="reg">
       <div className="line">
         <h2> 공간안전인증원</h2>
-        <input className="input" placeholder="아이디" />
-        <input className="input" placeholder="비밀번호" />
-        <input className="input" placeholder="비밀번호 확인" />
+
+        <LoginInput
+          type="text"
+          name="name"
+          value={name}
+          placeholder="이름"
+          onChange={nameChange}
+        />
+        <LoginInput
+          type="email"
+          name="email"
+          value={email}
+          placeholder="이메일"
+          onChange={emailChange}
+        />
+        <LoginInput
+          type="password"
+          name="password"
+          value={password}
+          placeholder="비밀번호"
+          onChange={passwordChange}
+        />
 
         <Link to="/">
           {" "}
-          <button>가입완료</button>{" "}
+          <button onClick={buttonClick}>가입완료</button>{" "}
         </Link>
       </div>
     </div>

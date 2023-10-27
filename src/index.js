@@ -1,26 +1,27 @@
-import "react-app-polyfill/ie11";
-import "react-app-polyfill/stable";
+// import "react-app-polyfill/ie11";
+// import "react-app-polyfill/stable";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createStore, applyMiddleware } from "redux";
+// import { createStore, applyMiddleware } from "redux";
 // import { enableES5 } from "immer";
-import { composeWithDevTools } from "redux-devtools-extension";
-import ReduxThunk from "redux-thunk";
+// import { composeWithDevTools } from "redux-devtools-extension";
+// import ReduxThunk from "redux-thunk";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import "./index.scss";
 import App from "./App";
-import rootReducer from "./store/modules";
+// import rootReducer from "./store/modules";
 import reportWebVitals from "./reportWebVitals";
 import ScrollToTop from "./lib/ScrollToTop";
+import { configureStore } from "@reduxjs/toolkit/dist";
+import register from "./modules/registerSlice";
 
 // enableES5();
 
-const store = createStore(
-  rootReducer,
-  composeWithDevTools(applyMiddleware(ReduxThunk))
-);
+const store = configureStore({
+  reducer: { register },
+});
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
